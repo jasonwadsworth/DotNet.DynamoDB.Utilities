@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F8C59A9-A913-4F95-9C81-41DFB722EAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDB.Utilities", "src\DynamoDB.Utilities\DynamoDB.Utilities.csproj", "{62CE9648-70D0-4A09-B54C-5545065D2B51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0BDF50A0-E3E5-4E99-ACE9-B9610F0362A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDB.Utilities.Tests", "test\DynamoDB.Utilities.Tests\DynamoDB.Utilities.Tests.csproj", "{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|x64.Build.0 = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Debug|x86.Build.0 = Debug|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|x64.ActiveCfg = Release|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|x64.Build.0 = Release|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|x86.ActiveCfg = Release|Any CPU
+		{62CE9648-70D0-4A09-B54C-5545065D2B51}.Release|x86.Build.0 = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|x64.Build.0 = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|x64.ActiveCfg = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|x64.Build.0 = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62CE9648-70D0-4A09-B54C-5545065D2B51} = {8F8C59A9-A913-4F95-9C81-41DFB722EAF2}
+		{63C8FC6A-1AE5-4B62-9CB4-D0CCAE3B09E3} = {0BDF50A0-E3E5-4E99-ACE9-B9610F0362A6}
+	EndGlobalSection
+EndGlobal
