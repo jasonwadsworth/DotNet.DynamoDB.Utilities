@@ -47,7 +47,6 @@ namespace Wadsworth.DynamoDB.Utilities
             }
         }
 
-
         /// <summary>
         /// Queries the data using the queryRequest and paging info.
         ///
